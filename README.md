@@ -7,7 +7,7 @@ This image requires a `simulation.json` to be provided in `/var/hoverfly` to set
 To run the image:
 
 ```shell
-docker run -it -p 8888:8888 -p 8500:8500 -v example:/var/hoverfly/ janjaali/hoverfly:latest
+docker run -it -p 8888:8888 -p 8500:8500 -v example:/var/hoverfly/ ghashange/hoverfly:latest
 ```
 
 [docker]: https://www.docker.com
