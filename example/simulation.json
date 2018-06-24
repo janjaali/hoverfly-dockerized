@@ -1,0 +1,24 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"request": {
+					"path": [
+						{
+							"matcher": "exact",
+							"value": "/"
+						}
+					]
+				},
+				"response": {
+					"status": 200,
+					"body": "fly hoverfly, fly"
+				}
+			}
+		]
+	},
+	"meta": {
+		"schemaVersion": "v5",
+		"hoverflyVersion": "v0.17.0"
+	}
+}
