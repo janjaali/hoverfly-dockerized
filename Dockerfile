@@ -2,7 +2,7 @@ FROM golang:1.10.3-alpine3.7
 
 LABEL author="Siyavash Habashi (janjaali)"
 
-ARG hoverfly_version=0.17.0
+ARG hoverfly_version=1.1.3
 ARG hoverfly_archive=/tmp/hoverfly-${hoverfly_version}
 
 ADD https://github.com/SpectoLabs/hoverfly/archive/v${hoverfly_version}.zip ${hoverfly_archive}
